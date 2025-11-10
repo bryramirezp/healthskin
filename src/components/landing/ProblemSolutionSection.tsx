@@ -9,7 +9,7 @@ export function ProblemSolutionSection() {
 
   return (
     <section className="py-16 md:py-24 bg-background">
-      <div className="container px-4 md:px-6">
+      <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">HEALSKIN, de la Ciencia a tu Piel</h2>
             <p className="mt-4 text-lg text-muted-foreground">

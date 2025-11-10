@@ -8,7 +8,7 @@ export function OriginSection() {
 
   return (
     <section className="py-16 md:py-24">
-      <div className="container px-4 md:px-6">
+      <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Nuestra Historia: De la Universidad al Mundo</h2>
             <p className="mt-4 text-lg text-muted-foreground">

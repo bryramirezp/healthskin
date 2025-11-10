@@ -7,7 +7,7 @@ export function ScienceSection() {
 
   return (
     <section className="py-16 md:py-24 bg-background">
-      <div className="container px-4 md:px-6">
+      <div className="container">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 lg:items-center">
           <div>
             <span className="text-primary font-semibold tracking-wider">CIENCIA E INNOVACIÓN</span>

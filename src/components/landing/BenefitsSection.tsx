@@ -32,7 +32,7 @@ const benefits = [
 export function BenefitsSection() {
   return (
     <section className="py-16 md:py-24 bg-secondary">
-      <div className="container px-4 md:px-6">
+      <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Beneficios que Transforman Vidas</h2>
             <p className="mt-4 text-lg text-muted-foreground">
