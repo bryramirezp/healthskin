@@ -42,18 +42,16 @@ export function ScienceSection() {
           </div>
           <div className="order-2 lg:order-1">
             {scienceImage && (
-              <Card>
-                  <div className="relative aspect-4/3 w-full rounded-lg overflow-hidden shadow-lg">
-                    <Image
-                      src={scienceImage.imageUrl}
-                      alt={scienceImage.description}
-                      fill
-                      unoptimized
-                      className="object-cover"
-                      data-ai-hint={scienceImage.imageHint}
-                    />
-                  </div>
-              </Card>
+              <div className="relative aspect-4/3 w-full rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src={scienceImage.imageUrl}
+                  alt={scienceImage.description}
+                  fill
+                  unoptimized
+                  className="object-cover"
+                  data-ai-hint={scienceImage.imageHint}
+                />
+              </div>
             )}
           </div>
         </div>
