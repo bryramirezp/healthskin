@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Dna, Atom, TestTube2 } from "lucide-react";
 
 export function ScienceSection() {
@@ -43,7 +43,6 @@ export function ScienceSection() {
           <div className="order-2 lg:order-1">
             {scienceImage && (
               <Card>
-                <CardContent className="p-2">
                   <div className="relative aspect-4/3 w-full rounded-lg overflow-hidden shadow-lg">
                     <Image
                       src={scienceImage.imageUrl}
@@ -54,7 +53,6 @@ export function ScienceSection() {
                       data-ai-hint={scienceImage.imageHint}
                     />
                   </div>
-                </CardContent>
               </Card>
             )}
           </div>
