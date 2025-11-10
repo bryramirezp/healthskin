@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-biotech",
+      "description": "Abstract biotechnology background for the hero section",
+      "imageUrl": "https://images.unsplash.com/photo-1740666387475-548de5c37691?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGJpb2xvZ3l8ZW58MHx8fHwxNzYyNzM4ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract biology"
+    },
+    {
+      "id": "founder-valentina",
+      "description": "Portrait of co-founder Valentina Zenteno",
+      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjcwMjE5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "founder-benjamin",
+      "description": "Portrait of co-founder Benjamín Pereira",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI3Mzg5NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "science-bio-printing",
+      "description": "Image representing the bio-printing technology",
+      "imageUrl": "https://images.unsplash.com/photo-1614934273523-1c9f0f666c33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwc2NpZW5jZXxlbnwwfHx8fDE3NjI3NDcwMjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laboratory science"
+    },
+    {
+      "id": "problem-traditional",
+      "description": "Image representing traditional wound care",
+      "imageUrl": "https://images.unsplash.com/photo-1758574927234-3ca8b017184a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYW5kYWdlJTIwd291bmR8ZW58MHx8fHwxNzYyNzQ3MDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bandage wound"
+    },
+    {
+      "id": "solution-healskin",
+      "description": "Image representing the advanced HEALSKIN solution",
+      "imageUrl": "https://images.unsplash.com/photo-1601134991665-a020399422e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxza2luJTIwY2VsbHN8ZW58MHx8fHwxNzYyNzQ3MDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skin cells"
+    },
+    {
+      "id": "instagram-1",
+      "description": "Placeholder for Instagram feed post 1",
+      "imageUrl": "https://images.unsplash.com/photo-1707944745860-4615eb585a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2h8ZW58MHx8fHwxNzYyNjY3OTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laboratory research"
+    },
+    {
+      "id": "instagram-2",
+      "description": "Placeholder for Instagram feed post 2",
+      "imageUrl": "https://images.unsplash.com/photo-1647083701153-b511157232ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtaWNyb3Njb3BlJTIwdmlld3xlbnwwfHx8fDE3NjI3NDIxOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "microscope view"
+    },
+    {
+      "id": "instagram-3",
+      "description": "Placeholder for Instagram feed post 3",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fDE3NjI2OTYyODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team meeting"
+    },
+    {
+      "id": "instagram-4",
+      "description": "Placeholder for Instagram feed post 4",
+      "imageUrl": "https://images.unsplash.com/photo-1576670159375-8beb7c963ead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2llbmNlJTIwcHJlc2VudGF0aW9ufGVufDB8fHx8MTc2MjYyNTE5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science presentation"
+    },
+    {
+      "id": "instagram-5",
+      "description": "Placeholder for Instagram feed post 5",
+      "imageUrl": "https://images.unsplash.com/photo-1593466901025-8e34d32093d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMHBhdGllbnR8ZW58MHx8fHwxNzYyNzAwODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy patient"
+    },
+    {
+      "id": "instagram-6",
+      "description": "Placeholder for Instagram feed post 6",
+      "imageUrl": "https://images.unsplash.com/photo-1756723903184-32fed816ea5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9kdWN0JTIwcHJvdG90eXBlfGVufDB8fHx8MTc2Mjc0NzAyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "product prototype"
+    }
+  ]
 }
