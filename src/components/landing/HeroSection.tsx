@@ -22,6 +22,7 @@ export function HeroSection() {
             fill
             className="object-cover object-center z-0"
             unoptimized
+            priority
             data-ai-hint={heroImage.imageHint}
           />
         )}
@@ -36,7 +37,7 @@ export function HeroSection() {
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-primary-foreground drop-shadow-lg text-center">
               La Revolución en la Regeneración de la Piel
             </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl">
+            <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
               HEALSKIN: El apósito bio-impreso que acelera la curación, reduce el dolor y transforma la vida de pacientes con quemaduras y heridas complejas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">

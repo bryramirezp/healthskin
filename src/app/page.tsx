@@ -8,6 +8,7 @@ import { BenefitsSection } from "@/components/landing/BenefitsSection";
 import { ScienceSection } from "@/components/landing/ScienceSection";
 import { OriginSection } from "@/components/landing/OriginSection";
 import { Footer } from "@/components/landing/Footer";
+import { InstagramFeed } from "@/components/landing/InstagramFeed";
 
 export default function LandingPage() {
 
@@ -20,6 +21,7 @@ export default function LandingPage() {
         <BenefitsSection />
         <ScienceSection />
         <OriginSection />
+        <InstagramFeed />
       </main>
       <Footer />
     </div>

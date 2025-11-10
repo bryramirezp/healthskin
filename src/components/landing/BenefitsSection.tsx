@@ -42,10 +42,10 @@ export function BenefitsSection() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit, index) => (
             <Card key={index} className="text-center group hover:border-primary transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-              <CardHeader>
+              <CardHeader className="pb-4">
                 <div className="flex justify-center mb-4">
-                  <div className="bg-accent/50 p-4 rounded-full group-hover:bg-accent transition-colors">
-                    <benefit.icon className="w-8 h-8 text-accent-foreground group-hover:scale-110 transition-transform" />
+                  <div className="bg-primary/10 p-4 rounded-full group-hover:bg-primary/20 transition-colors">
+                    <benefit.icon className="w-8 h-8 text-primary group-hover:scale-110 transition-transform" />
                   </div>
                 </div>
                 <CardTitle>{benefit.title}</CardTitle>
