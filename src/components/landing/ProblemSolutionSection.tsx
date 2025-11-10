@@ -8,12 +8,12 @@ export function ProblemSolutionSection() {
   const solutionImage = PlaceHolderImages.find(p => p.id === 'solution-healskin');
 
   return (
-    <section className="py-16 md:py-24 bg-secondary">
+    <section className="py-16 md:py-24 bg-background">
       <div className="container px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">El Desafío de la Curación Tradicional</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">HEALSKIN, de la Ciencia a tu Piel</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-            En Chile, más de 120.000 personas sufren quemaduras anualmente. Los métodos actuales son a menudo dolorosos, lentos y con riesgo de infección.
+            En Chile, más de 120.000 personas sufren quemaduras anualmente. Los métodos actuales son a menudo dolorosos, lentos y con riesgo de infección. HEALSKIN nace para cambiar esta realidad.
             </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
@@ -41,13 +41,13 @@ export function ProblemSolutionSection() {
               </ul>
             </CardContent>
           </Card>
-          <Card className="flex flex-col border-primary ring-2 ring-primary">
+          <Card className="flex flex-col">
             <CardHeader className="flex-row gap-4 items-center">
                 <div className="bg-primary/10 p-3 rounded-full">
                     <ThumbsUp className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                    <CardTitle>La Solución HEALSKIN</CardTitle>
+                    <CardTitle>La Solución</CardTitle>
                     <CardDescription>Innovación Biotecnológica</CardDescription>
                 </div>
             </CardHeader>
@@ -57,7 +57,7 @@ export function ProblemSolutionSection() {
                   <Image src={solutionImage.imageUrl} alt={solutionImage.description} fill unoptimized className="object-cover" data-ai-hint={solutionImage.imageHint} />
                 </div>
               )}
-              <ul className="space-y-2 text-foreground font-medium">
+              <ul className="space-y-2 text-foreground">
                 <li>✓ Curaciones menos invasivas y dolorosas.</li>
                 <li>✓ Regeneración cutánea acelerada y eficaz.</li>
                 <li>✓ Reduce significativamente el riesgo de infección.</li>

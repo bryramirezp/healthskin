@@ -1,16 +1,11 @@
 "use client";
 
 import { Logo } from "./Logo";
-import { Button } from "@/components/ui/button";
-import { Send } from "lucide-react";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
-type HeaderProps = {
-  onContactClick: () => void;
-};
 
-export function Header({ onContactClick }: HeaderProps) {
+export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -30,10 +25,6 @@ export function Header({ onContactClick }: HeaderProps) {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Logo />
-        <Button onClick={onContactClick}>
-          Contacto
-          <Send />
-        </Button>
       </div>
     </header>
   );

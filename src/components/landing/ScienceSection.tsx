@@ -7,10 +7,10 @@ export function ScienceSection() {
   const scienceImage = PlaceHolderImages.find(p => p.id === 'science-bio-printing');
 
   return (
-    <section className="py-16 md:py-24 bg-secondary">
+    <section className="py-16 md:py-24 bg-background">
       <div className="container px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-          <div className="order-2 lg:order-1">
+          <div className="order-1 lg:order-2">
             <span className="text-primary font-semibold tracking-wider">CIENCIA E INNOVACIÓN</span>
             <h2 className="mt-2 text-3xl md:text-4xl font-bold tracking-tight">Tecnología de Bio-impresión a tu Alcance</h2>
             <p className="mt-4 text-lg text-muted-foreground">
@@ -40,7 +40,7 @@ export function ScienceSection() {
                 </div>
             </div>
           </div>
-          <div className="order-1 lg:order-2">
+          <div className="order-2 lg:order-1">
             {scienceImage && (
               <Card>
                 <CardContent className="p-2">

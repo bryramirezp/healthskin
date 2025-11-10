@@ -1,13 +1,7 @@
-import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
 
-type HeroSectionProps = {
-  onContactClick: () => void;
-};
-
-export function HeroSection({ onContactClick }: HeroSectionProps) {
+export function HeroSection() {
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero-biotech');
 
   return (
@@ -36,15 +30,6 @@ export function HeroSection({ onContactClick }: HeroSectionProps) {
           <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl">
             HEALSKIN: El apósito bio-impreso que acelera la curación, reduce el dolor y transforma la vida de pacientes con quemaduras y heridas complejas.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" onClick={onContactClick}>
-              Solicitar Información
-              <ArrowRight />
-            </Button>
-            <Button size="lg" variant="secondary">
-              Conoce la ciencia
-            </Button>
-          </div>
         </div>
       </div>
     </section>
