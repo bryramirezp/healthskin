@@ -14,7 +14,7 @@ export function HeroSection() {
 
   return (
     <>
-      <section className="relative w-full pt-12 pb-24 md:pt-24 md:pb-32 lg:pt-32 lg:pb-48 -mt-20">
+      <section className="relative w-full h-screen min-h-[600px] flex items-center justify-center -mt-20">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
