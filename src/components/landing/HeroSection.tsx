@@ -24,7 +24,7 @@ export function HeroSection() {
               Ciencia. Innovación. Empatía.
             </p>
           </div>
-          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-primary-foreground drop-shadow-lg">
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-primary-foreground drop-shadow-lg text-center">
             La Revolución en la Regeneración de la Piel
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl">
