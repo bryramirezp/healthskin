@@ -7,15 +7,15 @@ export function OriginSection() {
   const benjaminImage = PlaceHolderImages.find(p => p.id === 'founder-benjamin');
 
   return (
-    <section className="py-16 md:py-24">
-      <div className="container">
-        <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Nuestra Historia: De la Universidad al Mundo</h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+    <section className="py-12 sm:py-16 md:py-20 lg:py-24">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8">
+        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">Nuestra Historia: De la Universidad al Mundo</h2>
+            <p className="mt-4 text-base sm:text-lg text-muted-foreground px-4 sm:px-0">
             HEALSKIN nació de la pasión y dedicación de dos estudiantes de Biotecnología con un objetivo común: aplicar la ciencia para resolver problemas reales y mejorar la vida de las personas.
             </p>
         </div>
-        <div className="grid gap-10 md:grid-cols-2 md:gap-16 items-start">
+        <div className="grid gap-8 sm:gap-10 md:grid-cols-2 md:gap-12 lg:gap-16 items-start max-w-5xl mx-auto">
             <div className="flex flex-col items-center text-center">
                 {valentinaImage && (
                     <div className="relative mb-4">

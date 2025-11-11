@@ -24,11 +24,13 @@ export function Header() {
     <>
       <header
         className={cn(
-          "sticky top-0 z-50 w-full transition-all duration-300",
-          isScrolled ? "bg-background/80 backdrop-blur-sm border-b" : "bg-transparent"
+          "sticky top-0 z-50 w-full transition-all duration-200 ease-in-out",
+          isScrolled 
+            ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border/40" 
+            : "bg-transparent border-b border-transparent"
         )}
       >
-        <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
+        <div className="container mx-auto flex h-16 sm:h-20 items-center justify-between px-4 sm:px-6 md:px-8">
           <Logo />
         </div>
       </header>

@@ -8,15 +8,15 @@ export function ProblemSolutionSection() {
   const solutionImage = PlaceHolderImages.find(p => p.id === 'solution-healskin');
 
   return (
-    <section className="py-16 md:py-24 bg-background">
-      <div className="container">
-        <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">HEALSKIN, de la Ciencia a tu Piel</h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+    <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8">
+        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">HEALSKIN, de la Ciencia a tu Piel</h2>
+            <p className="mt-4 text-base sm:text-lg text-muted-foreground px-4 sm:px-0">
             En Chile, más de 120.000 personas sufren quemaduras anualmente. Los métodos actuales son a menudo dolorosos, lentos y con riesgo de infección. HEALSKIN nace para cambiar esta realidad.
             </p>
         </div>
-        <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
+        <div className="grid gap-6 sm:gap-8 md:grid-cols-2 lg:gap-12 max-w-6xl mx-auto">
           <Card className="flex flex-col">
             <CardHeader className="flex-row gap-4 items-center">
                 <div className="bg-destructive/10 p-3 rounded-full">

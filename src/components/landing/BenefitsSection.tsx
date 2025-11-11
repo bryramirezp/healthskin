@@ -31,15 +31,15 @@ const benefits = [
 
 export function BenefitsSection() {
   return (
-    <section className="py-16 md:py-24 bg-secondary">
-      <div className="container">
-        <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Beneficios que Transforman Vidas</h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+    <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-secondary">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8">
+        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">Beneficios que Transforman Vidas</h2>
+            <p className="mt-4 text-base sm:text-lg text-muted-foreground px-4 sm:px-0">
             HEALSKIN no es solo un apósito, es una nueva esperanza para una recuperación integral.
             </p>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
           {benefits.map((benefit, index) => (
             <Card key={index} className="text-center group hover:border-primary transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
               <CardHeader className="pb-4">

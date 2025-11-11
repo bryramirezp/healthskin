@@ -5,6 +5,11 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'HEALSKIN | Innovación en Curación de Heridas y Quemaduras',
   description: 'Descubre HEALSKIN, el apósito bio-impreso que acelera la regeneración de la piel, reduce el dolor y minimiza cicatrices. La revolución en el cuidado de heridas complejas y quemaduras.',
+  icons: {
+    icon: '/healskin-logo.ico',
+    shortcut: '/healskin-logo.ico',
+    apple: '/healskin-logo.png',
+  },
   openGraph: {
     title: 'HEALSKIN | Innovación en Curación de Heridas y Quemaduras',
     description: 'La solución biotecnológica para una recuperación más rápida, segura y menos dolorosa. Inspirado en la ciencia, creado para tu bienestar.',

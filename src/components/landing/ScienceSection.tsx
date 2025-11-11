@@ -6,13 +6,13 @@ export function ScienceSection() {
   const scienceImage = PlaceHolderImages.find(p => p.id === 'science-bio-printing');
 
   return (
-    <section className="py-16 md:py-24 bg-background">
-      <div className="container">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 lg:items-center">
-          <div>
-            <span className="text-primary font-semibold tracking-wider">CIENCIA E INNOVACIÓN</span>
-            <h2 className="mt-2 text-3xl md:text-4xl font-bold tracking-tight">Tecnología de Bio-impresión a tu Alcance</h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+    <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8">
+        <div className="grid gap-8 md:gap-12 md:grid-cols-2 lg:gap-16 lg:items-center max-w-7xl mx-auto">
+          <div className="text-center md:text-left order-2 md:order-1">
+            <span className="text-primary font-semibold tracking-wider text-sm sm:text-base">CIENCIA E INNOVACIÓN</span>
+            <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">Tecnología de Bio-impresión a tu Alcance</h2>
+            <p className="mt-4 text-base sm:text-lg text-muted-foreground px-4 md:px-0">
               HEALSKIN se crea mediante un proceso de bio-impresión de vanguardia. Utilizamos biomateriales inteligentes y factores de crecimiento para construir una estructura 3D que imita la matriz extracelular de la piel, creando el andamiaje perfecto para la regeneración celular.
             </p>
             <div className="mt-8 space-y-6">
@@ -39,9 +39,9 @@ export function ScienceSection() {
                 </div>
             </div>
           </div>
-          <div>
+          <div className="order-1 md:order-2">
             {scienceImage && (
-              <div className="relative aspect-4/3 w-full rounded-lg overflow-hidden shadow-lg">
+              <div className="relative aspect-video md:aspect-4/3 w-full rounded-lg overflow-hidden shadow-lg">
                 <Image
                   src={scienceImage.imageUrl}
                   alt={scienceImage.description}
